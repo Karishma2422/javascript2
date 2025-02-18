@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Day 12</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <style>
+      .txt-ctr {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="txt-ctr">JS 2 Day 12</h1>
+
+    <h2 id="headingTwo">This element is accessed in js using the document.getElementById</h2>
+    <p class="myPara">This element is accessed in js using the document.getElementByClassName or document.querrySelector()</p>
+    <span>SPAN - this element is accessed in JS using the document.getElementByTagName</span>
+
+    <h2 id="heading-two">Hello!</h2>
+
+    <h2 id="styles-js">This heading styled through JS</h2>
+
+    <!-- creating elements through JS -->
+
+    <div id="parentDiv">
+        <!-- here a new para element will be appended through JS -->
+    </div>
+
+
+
+
+
+
+    <!-- here is the concept of event bubbling -->
+    <div class="event-handling">
+        <p id="my-para-event">Event Handling!</p>
+    </div>
+
+
+    <div id="eventDelegationParent">
+      <!-- here a new element is dynamically created through javascript -->
+       <p id="child">I am child and event bubbling dosen't work on me</p>
+    </div>
+
+    <label for="name">Enter your Name : </label>
+    <input type="text" name="name" id="name" onchange="saveName()"/>
+
+    <input type="text" id="username" name="username" />
+
+    <!-- local Storage -->
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
