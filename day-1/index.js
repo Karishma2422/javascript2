@@ -9,7 +9,7 @@
 
 // String
 
-// everything thing written in '' "" `` is considered as string  -> 'usman' "usman" `usman@123`
+// everything thing written in '' "" `` is considered as string  -> 'karishma' "karishma" `karishma@123`
 
 // number has no syntax it can be written as it is  -> 123 123.123 both are considered as number
 
